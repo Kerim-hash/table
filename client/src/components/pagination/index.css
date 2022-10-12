@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination-list {
+  display: flex;
+  margin: 0 20px;
+}
+.pagination-link {
+  border: 1px solid #6887ffcf;
+  padding: 3px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.pagination-link.is-current {
+  background: #6887ffcf;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    margin-top: 30px;
+  }
+}
